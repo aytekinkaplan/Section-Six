@@ -35,6 +35,14 @@ public class ArrayLoopExamples {
         int[] values = {3, 5, 7, 9, 11};
         // TODO: Use a for loop to double each element in the values array
 
+        for (int i = 0; i < values.length; i++) {
+            values[i] = values[i]*2;
+        }
+
+        for (int i : values) {
+            System.out.println(i);
+        }
+
 
     
 
