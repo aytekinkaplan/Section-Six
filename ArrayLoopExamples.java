@@ -22,10 +22,21 @@ public class ArrayLoopExamples {
         // Example 3: Print every second element of an integer array
         int[] grades = {95, 80, 85, 70, 90, 60, 88, 78};
         // TODO: Use a for loop to print every second element of the grades array (step size of 2)
+        System.out.println("Solution Type");
+        for (int i = 0; i < grades.length; i++) {
+            System.out.print(grades[i]+" ");
+        }
+
+        for (int i = 0; i < grades.length; i+=2) {
+            System.out.print(grades[i]+" ");
+        }
 
         // Example 4: Double the elements of an integer array
         int[] values = {3, 5, 7, 9, 11};
         // TODO: Use a for loop to double each element in the values array
+
+
+    
 
         // Example 5: Capitalize the elements of a string array
         String[] colors = {"red", "green", "blue"};
