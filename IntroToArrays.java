@@ -4,5 +4,7 @@ public class IntroToArrays {
         String kingdom2 = "Wessex";
         String kingdom3 = "Northumbria";
         String kingdom4 = "East Anglia";
+
+        String[] kingdoms={"Mercia","Wessex","Northumbria","East Anglia"};
     }
 }
