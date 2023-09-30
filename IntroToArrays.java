@@ -13,7 +13,7 @@ public class IntroToArrays {
         System.out.println(kingdoms[3]);
         System.out.print("Kingdoms: ");
         for (int i = 0; i < kingdoms.length; i++) {
-            System.out.print(kingdoms[i]+" ");
+            System.out.print(kingdoms[i]+", ");
         }
     }
 }
