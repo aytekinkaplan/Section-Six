@@ -11,5 +11,9 @@ public class IntroToArrays {
         System.out.println(kingdoms[1]);
         System.out.println(kingdoms[2]);
         System.out.println(kingdoms[3]);
+        System.out.println("Kingdoms: ");
+        for (int i = 0; i < kingdoms.length; i++) {
+            System.out.print(kingdoms[i]);
+        }
     }
 }
