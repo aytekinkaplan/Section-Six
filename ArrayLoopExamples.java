@@ -1,7 +1,7 @@
 public class ArrayLoopExamples {
 
     public static void main(String[] args) {
-        // Example 1: Print the elements of an integer array using a for loop
+        System.out.println("Example 1: Print the elements of an integer array using a for loop");
         int[] numbers = {22, 24, 26, 29, 30};
         // TODO: Use a for loop to print each element of the intArray
         for (int i = 0; i < numbers.length; i++) {
@@ -12,9 +12,12 @@ public class ArrayLoopExamples {
             System.out.print(i+" ");
         }
 
-        // Example 2: Print the elements of a string array using a for loop
+        System.out.println("Example 2: Print the elements of a string array using a for loop");
         String[] strArray = {"apple", "banana", "cherry"};
         // TODO: Use a for loop to print each element of the strArray
+        for (String string : strArray) {
+            System.out.print(string+" ");
+        }
 
         // Example 3: Print every second element of an integer array
         int[] grades = {95, 80, 85, 70, 90, 60, 88, 78};
